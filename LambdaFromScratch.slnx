@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/exercises/">
+    <Project Path="exercises/LambdaFromScratch.Kata/LambdaFromScratch.Kata.csproj" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/LambdaFromScratch.Kata.Tests/LambdaFromScratch.Kata.Tests.csproj" />
+    <Project Path="src/LambdaFromScratch.Tests/LambdaFromScratch.Tests.csproj" />
+    <Project Path="src/LambdaFromScratch/LambdaFromScratch.csproj" />
+  </Folder>
+</Solution>
