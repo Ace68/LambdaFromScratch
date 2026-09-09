@@ -17,4 +17,8 @@ public static class ChurchNumerals
     // THREE = λf.λx.f (f (f x))
     public static Func<T, T> Three<T>(Func<T, T> f) =>
         x => throw new NotImplementedException();
+
+    // SUCC = λn.λf.λx.f (n f x)
+    public static ChurchNumeral<T> Successor<T>(ChurchNumeral<T> n) =>
+        f => x => throw new NotImplementedException();
 }
