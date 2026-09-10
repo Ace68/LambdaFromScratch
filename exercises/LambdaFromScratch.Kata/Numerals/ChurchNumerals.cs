@@ -25,4 +25,8 @@ public static class ChurchNumerals
     // ADD = λm.λn.λf.λx.m f (n f x)
     public static Func<ChurchNumeral<T>, ChurchNumeral<T>> Add<T>(ChurchNumeral<T> m) =>
         n => f => x => throw new NotImplementedException();
+
+    // MULT = λm.λn.λf.m (n f)
+    public static Func<ChurchNumeral<T>, ChurchNumeral<T>> Multiply<T>(ChurchNumeral<T> m) =>
+        n => f => x => throw new NotImplementedException();
 }
