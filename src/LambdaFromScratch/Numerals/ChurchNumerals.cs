@@ -37,4 +37,7 @@ public static class ChurchNumerals
 
     public static ChurchNumeral<T> Successor<T>(ChurchNumeral<T> n) =>
         f => x => f(n(f)(x));
+
+    public static Func<ChurchNumeral<T>, ChurchNumeral<T>> Add<T>(ChurchNumeral<T> m) =>
+        n => f => x => m(f)(n(f)(x));
 }

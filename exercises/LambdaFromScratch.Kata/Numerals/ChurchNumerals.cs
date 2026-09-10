@@ -21,4 +21,8 @@ public static class ChurchNumerals
     // SUCC = λn.λf.λx.f (n f x)
     public static ChurchNumeral<T> Successor<T>(ChurchNumeral<T> n) =>
         f => x => throw new NotImplementedException();
+
+    // ADD = λm.λn.λf.λx.m f (n f x)
+    public static Func<ChurchNumeral<T>, ChurchNumeral<T>> Add<T>(ChurchNumeral<T> m) =>
+        n => f => x => throw new NotImplementedException();
 }
