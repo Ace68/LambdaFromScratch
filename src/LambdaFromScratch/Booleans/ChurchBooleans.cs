@@ -1,5 +1,11 @@
 namespace LambdaFromScratch.Booleans;
 
+/// <summary>
+/// A boolean does not have to be represented as a stored `bool`.
+/// It can be represented as behavior.
+/// TRUE  = λx.λy.x
+/// FALSE = λx.λy.y
+/// </summary>
 public static class ChurchBooleans
 {
     // Uncurried versions of True and False

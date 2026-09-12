@@ -1,5 +1,13 @@
 namespace LambdaFromScratch.Numerals;
 
+/// <summary>
+/// A Church numeral is not a stored number.
+/// It describes how many times a function should be applied.
+/// ZERO  = λf.λx.x
+/// ONE   = λf.λx.f x
+/// TWO   = λf.λx.f (f x)
+/// THREE = λf.λx.f (f (f x))
+/// </summary>
 public static class ChurchNumerals
 {
     public static Func<T, T> Zero<T>(Func<T, T> f) =>
@@ -36,6 +44,10 @@ public static class ChurchNumerals
         x => f(f(f(f(f(f(f(f(f(f(x))))))))));
 
     /// <summary>
+    /// SUCC = λn.λf.λx.f (n f x)
+    /// A Church numeral represents repeated application of a function.
+    /// Its successor applies that same function one additional time.
+    /// 
     /// How to Read Successor, Add, and Multiply
     /// A useful way to read these functions is to separate the C# method signature from the functional body.
     /// One important detail is that the first λ from the Lambda Calculus expression is often represented in C# by the method parameter itself.
