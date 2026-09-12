@@ -1,7 +1,7 @@
 <Solution>
   <Folder Name="/exercises/">
+    <Project Path="exercises/LambdaFromScratch.Kata.Tests/LambdaFromScratch.Kata.Tests.csproj" />
     <Project Path="exercises/LambdaFromScratch.Kata/LambdaFromScratch.Kata.csproj" />
-    <Project Path="src/LambdaFromScratch.Kata.Tests/LambdaFromScratch.Kata.Tests.csproj" />
   </Folder>
   <Folder Name="/src/">
     <Project Path="src/LambdaFromScratch.Tests/LambdaFromScratch.Tests.csproj" />
