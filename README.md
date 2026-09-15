@@ -27,7 +27,7 @@ You know how to program in C#. Let's rebuild some of the fundamental pieces of p
 - `src/LambdaFromScratch.Tests` - tests for the reference implementation
 - `exercises/LambdaFromScratch.Kata` - exercises to complete
 - `src/LambdaFromScratch.Kata.Tests` - tests that guide the kata
-- `docs` - progressive learning material
+- `exercise/Principles` - progressive learning material
 
 ## Build
 
