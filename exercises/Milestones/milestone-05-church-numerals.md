@@ -36,11 +36,12 @@ Do not implement `Successor`, `Add`, `Multiply`, pairs, predicates, or any later
 Read:
 
 ```text
-docs/specs/v0.1.md
-docs/01-functions.md
-docs/02-identity.md
-docs/03-booleans.md
-docs/04-logic.md
+Milestones/milestone-00-before-to-start.md
+Principles/01-functions.md
+Principles/02-identity.md
+Principles/01-functions.md
+Principles/03-booleans.md
+Principles/04-logic.md
 ```
 
 You should already be comfortable reading expressions such as:

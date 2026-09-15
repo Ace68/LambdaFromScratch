@@ -35,8 +35,8 @@ Do not introduce booleans or any later Lambda Calculus concept yet.
 Read:
 
 ```text
-docs/specs/v0.1.md
-docs/01-functions.md
+Milestones/milestone-00-before-to-start.md
+Principles/01-functions.md
 ```
 
 Make sure you are comfortable reading:

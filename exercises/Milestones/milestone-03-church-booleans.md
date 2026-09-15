@@ -54,9 +54,9 @@ Do not implement `NOT`, `AND`, `OR`, `IF`, Church numerals, or any later concept
 Read:
 
 ```text
-docs/specs/v0.1.md
-docs/01-functions.md
-docs/02-identity.md
+Milestones/milestone-00-before-to-start.md
+Principles/01-functions.md
+Principles/02-identity.md
 ```
 
 Make sure you are comfortable reading:

@@ -40,7 +40,7 @@ Do **not** implement `Identity` or any other Lambda Calculus function yet.
 Create:
 
 ```text
-docs/01-functions.md
+Principles/01-functions.md
 ```
 
 Write a short introductory chapter for experienced C# developers who have never studied Lambda Calculus.

@@ -39,13 +39,14 @@ Do not implement multiplication, pairs, predicates, predecessor, subtraction, re
 Read:
 
 ```text
-docs/specs/v0.1.md
-docs/01-functions.md
-docs/02-identity.md
-docs/03-booleans.md
-docs/04-logic.md
-docs/05-church-numerals.md
-docs/06-successor.md
+Milestones/milestone-00-before-to-start.md
+Principles/01-functions.md
+Principles/02-identity.md
+Principles/01-functions.md
+Principles/03-booleans.md
+Principles/04-logic.md
+Principles/05-church-numerals.md
+Principles/06-successor.md
 ```
 
 The project already uses:

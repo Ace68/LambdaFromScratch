@@ -44,10 +44,11 @@ Do not implement Church numerals or any later milestone yet.
 Read:
 
 ```text
-docs/specs/v0.1.md
-docs/01-functions.md
-docs/02-identity.md
-docs/03-booleans.md
+Milestones/milestone-00-before-to-start.md
+Principles/01-functions.md
+Principles/02-identity.md
+Principles/01-functions.md
+Principles/03-booleans.md
 ```
 
 The existing Church boolean implementation is:

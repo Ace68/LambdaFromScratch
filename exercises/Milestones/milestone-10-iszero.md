@@ -35,16 +35,18 @@ Do not implement predecessor, subtraction, comparisons, recursion, factorial, li
 Read:
 
 ```text
-docs/specs/v0.1.md
-docs/01-functions.md
-docs/02-identity.md
-docs/03-booleans.md
-docs/04-logic.md
-docs/05-church-numerals.md
-docs/06-successor.md
-docs/07-addition.md
-docs/08-multiplication.md
-docs/09-pairs.md
+Milestones/milestone-00-before-to-start.md
+Principles/01-functions.md
+Principles/02-identity.md
+Principles/01-functions.md
+Principles/03-booleans.md
+Principles/04-logic.md
+Principles/05-church-numerals.md
+Principles/06-successor.md
+Principles/07-addition.md
+Principles/08-multiplication.md
+Principles/09-pairs.md
+Principles/10-predicates.md
 ```
 
 The project already contains:
